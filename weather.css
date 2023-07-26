@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.weatherApp {
+    background-image: url(https://media.istockphoto.com/id/1304944153/photo/dramatic-sky-with-stormy-clouds.jpg?s=612x612&w=0&k=20&c=0LjmJrD3pRfu2oHwv6oHYgcw0WQiq-vpdVc8zyiOmJw=);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.location {
+    text-align: right;
+    padding: 30px 100px 0px 0px;
+}
+
+.location h3,
+.location h5 {
+    margin: 0;
+    text-align: right;
+    color: white;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    margin-top: 80px;
+}
+
+.temp_information h2 {
+    font-size: 60px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    height: 40px;
+    width: 400px;
+    border: 0;
+    padding-left: 10px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search button {
+    border: 0;
+    background-color: red;
+    columns: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 30px;
+}
